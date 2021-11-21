@@ -1,0 +1,19 @@
+
+<!--
+<ul class="vypis-novinek">
+<li class="vypis-novinek__polozka">Zalozeni firmy (<time class="vypis-novinek__datum">13.1.2005</time>)</li>
+<li class="vypis-novinek__polozka">Otevreni pobocky v Praze (<time class="vypis-novinek__datum">4.10.2005</time>)</li>
+<li class="vypis-novinek__polozka">Otevreni pobocky v Brne  (<time class="vypis-novinek__datum">22.2.2006</time>)</li>
+</ul>
+-->
+
+<ul class="vypis-novinek"> 
+
+{% for zprava in novinky %}
+<li class="vypis-novinek__polozka">
+    {{ zprava.titulek }} (<time class="vypis-novinek__datum"> {{ zprava.datum }} </time>)
+</li>
+
+{% endfor %}
+
+</ul>
