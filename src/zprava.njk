@@ -1,0 +1,15 @@
+---
+layout: zakladni
+pagination:
+  data: novinky
+  size: 1
+  alias: zprava
+permalink: '/zprava/{{ zprava.titulek | slug }}/'
+---
+<h2> {{ zprava.titulek }} </h2>
+
+<time class="vypis-novinek__datum"> 
+{{ zprava.datum.den }}.
+{{ zprava.datum.mesic }}.
+{{ zprava.datum.rok }}
+</time>

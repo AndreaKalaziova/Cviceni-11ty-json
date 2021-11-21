@@ -1,14 +1,34 @@
 [
     {
         "titulek": "Zalozeni firmy",
-        "datum": "3.3.2005"
+        "datum": {
+            "den": 1,
+            "mesic": 5,
+            "rok": 2005
+        }
     },
     {
         "titulek": "Otevreni pobocky v Praze",
-        "datum": "5.5.2005"
+        "datum": {
+            "den": 1,
+            "mesic": 6,
+            "rok": 2005
+        }
     },
     {
         "titulek": "Otevreni pobocky v Brne",
-        "datum": "7.7.2005"
+        "datum": {
+            "den": 1,
+            "mesic": 12,
+            "rok": 2005
+        }
+    },
+    {
+        "titulek": "Den otevrenych dveri",
+        "datum": {
+            "den": 15,
+            "mesic": 6,
+            "rok": 2005
+        }
     }
 ]
